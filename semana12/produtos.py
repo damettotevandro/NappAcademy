@@ -17,6 +17,14 @@ if __name__ == "__main__":
     produto = CocaCola(tamanho)
     client_code(produto)
 
+    tamanho = Tamanho2litros()
+    produto = CocaCola(tamanho)
+    client_code(produto)
+
+    tamanho = Tamanho3litros()
+    produto = CocaCola(tamanho)
+    client_code(produto)
+
     tamanho = Tamanho600ml()
     produto = Pepsi(tamanho)
     client_code(produto)
@@ -26,7 +34,39 @@ if __name__ == "__main__":
     client_code(produto)
 
     tamanho = Tamanho2litros()
+    produto = Pepsi(tamanho)
+    client_code(produto)
+
+    tamanho = Tamanho3litros()
+    produto = Pepsi(tamanho)
+    client_code(produto)
+
+    tamanho = Tamanho600ml()
     produto = Dolly(tamanho)
+    client_code(produto)
+
+    tamanho = Tamanho1litro()
+    produto = Dolly(tamanho)
+    client_code(produto)
+
+    tamanho = Tamanho2litros()
+    produto = Dolly(tamanho)
+    client_code(produto)
+
+    tamanho = Tamanho3litros()
+    produto = Dolly(tamanho)
+    client_code(produto)
+
+    tamanho = Tamanho600ml()
+    produto = GuaranaAntartica(tamanho)
+    client_code(produto)
+
+    tamanho = Tamanho2litros()
+    produto = GuaranaAntartica(tamanho)
+    client_code(produto)
+
+    tamanho = Tamanho2litros()
+    produto = GuaranaAntartica(tamanho)
     client_code(produto)
 
     tamanho = Tamanho3litros()
